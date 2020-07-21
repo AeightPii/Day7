@@ -1,0 +1,25 @@
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:fontFamily">@font/titillium</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+    <style name="AlertDialog" parent="Base.Theme.AppCompat.Light.Dialog">
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">#ef3a3a</item>
+        <item name="android:textColorPrimary">#000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppThemeCategory" parent="Theme.AppCompat.Light">
+
+        <item name="android:statusBarColor">@color/blank</item>
+    </style>
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/homeV"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        app:cnb_iconColor="@color/home"/>
+
+    <item
+        android:id="@+id/activityV"
+        android:icon="@drawable/ic_activity"
+        android:title="Activity"
+        app:cnb_iconColor="@color/activity"/>
+
+</menu>

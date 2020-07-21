@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">CusNav</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_us">About Us</string>
+
+    //
+    <string name="login_register">LOGIN/REGISTER</string>
+    <string name="login">LOGIN</string>
+    <string name="email_address_or_phone_no">EMAIL ADDRESS OR PHONE NO</string>
+    <string name="password">PASSWORD</string>
+    <string name="cancel">CANCEL</string>
+    <string name="forget_password">FORGET PASSWORD?</string>
+    <string name="haven_t_account_yet_sign_up">HAVEN\'T ACCOUNT YET?SIGN UP!!</string>
+
+    <string name="user_name">User Name</string>
+    <string name="passwordd">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up_sgn">Sign Up</string>
+    <string name="i_am_already_a_member">I am already a member</string>
+    <string name="checkbox">I agree all statements in
+    </string>
+    <string name="Trem">
+        <u>Terms of Services</u>
+    </string>
+    <string name="TNS">
+        IMPORTANT LEGAL NOTICE\n
+        Introduction\n
+        This legal notice applies to the entire contents of this booking engine. Please take some time to read these
+        Terms and Conditions of Use (‘Terms of Use’) as by using this booking engine you indicate your acceptance of
+        these Terms of Use regardless of whether or not you choose to register with us. If you do not accept these
+        terms, do not use this booking engine. By using any part of the booking engine, you shall be deemed to have
+        accepted this legal notice in full. Stop using this booking engine immediately if you do not accept and agree to
+        be bound by the terms of use.\n
+        \n
+        This booking engine is powered by CarTrawler’s technology and allows you to use CarTrawler’s technology to book
+        car rental services from third part car rental suppliers. By accepting the Terms of Use and/or using any part of
+        this booking engine, you agree to conduct your use of this booking engine and the technology supporting it and
+        provided on this booking engine in accordance with the Terms of Use and that the Terms of Use are an agreement
+        between CarTrawler and you.\n
+        \n
+        CarTrawler may revise this legal notice at any time by updating this posting. You should check the booking
+        engine from time to time to review the then current legal notice, because it is binding on you. Certain
+        provisions of this legal notice may be superseded by expressly designated legal notices or terms located on
+        particular pages at the booking engine.\n
+        \n
+        All references to booking engine in these Terms of Use are deemed to include reference to all bookings made
+        through CarTrawler’s call centre.\n
+        \n
+        Information About Us\n
+        CarTrawler facilitates bookings for car rental services. CarTrawler does not own or operate any car rental
+        companies. Your contract for car rental will be between you and the car rental supplier. The terms and
+        conditions of the rental agreement between you and the car rental supplier are available on this booking engine
+        when you select the car rental supplier type and insert the other relevant information. CarTrawler makes no
+        warranty or representation in relation to any rental car rental supplier or any car rented by any car rental
+        supplier. It is the car rental supplier’s sole responsibility to provide you with a rental car rented through
+        this booking engine\n
+        \n
+        Fees and Charges\n
+        It is the responsibility of the car rental supplier to process your reservation correctly. The accuracy of any
+        quote for renting a car provided by this booking engine and any booking made on this booking engine depends on
+        the details you provide on this booking engine.\n
+        \n
+        Service Access\n
+        While CarTrawler endeavours to ensure that the booking engine is normally available 24 hours a day, CarTrawler
+        shall not be liable if for any reason the booking engine is unavailable at any time or for any period. Access to
+        the booking engine may be suspended temporarily and without notice in the case of system failure, maintenance or
+        repair or for reasons beyond CarTrawler’s control.\n
+        \n
+        LIABILITY\n
+        In the event of a dispute between CarTrawler and you, our liability to you, if any, is limited to the amount
+        paid by you for the car rental.\n
+        \n
+        CarTrawler hereby excludes to the fullest extent permitted by law any warranties (whether express or implied),
+        as to the quality, completeness, performance or fitness for a particular purpose of (i) any car rental booked
+        through this booking engine and (ii) this booking engine and any of its contents, including, but not limited to,
+        any information relating to car rental supplier rentals contained within this booking engine and the technology
+        supporting and provided on this booking engine. CarTrawler reserves the right to make alterations to the booking
+        engine at any time. The information on this booking engine is updated from time to time. By using this booking
+        engine you acknowledge that the rental details and all other information including, but not limited to,
+        information relating to travel and holidays published on this booking engine may include inaccuracies or
+        typographical errors.\n
+        \n
+        Any booking you make for car rental on this booking engine is made with a car rental supplier and not
+        CarTrawler. CarTrawler and this booking engine only facilitate the making of reservations with the car rental
+        suppliers. CarTrawler is not a party to the contract between you and the car rental supplier and has no
+        responsibility or liability (directly or indirect) to any party in respect of the terms of your contract with
+        the car rental supplier or any problems arising with the car rental booked pursuant to that contract or any
+        other problems between you and the car rental supplier. On making a booking for a car rental through this
+        booking engine you are bound by and deemed to have accepted the terms and conditions of the relevant car rental
+        supplier.\n
+        \n
+        EXCEPT TO THE EXTENT CONTRARY TO LAW NEITHER CARTRAWLER NOR ANY OF OUR DIRECTORS, OWNERS, EMPLOYEES, AFFILIATES,
+        TRAVEL PARTNERS OR OTHER REPRESENTATIVES WILL BE LIABLE FOR ANY DIRECT OR INDIRECT LOSS OR DAMA
+    </string>
+    <string name="hire_now"><u>Hire Now</u></string>
+</resources>

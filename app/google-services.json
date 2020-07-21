@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1079062446582",
+    "firebase_url": "https://asyme-c3c88.firebaseio.com",
+    "project_id": "asyme-c3c88",
+    "storage_bucket": "asyme-c3c88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079062446582:android:3713bb036f1b0adcafc7d7",
+        "android_client_info": {
+          "package_name": "com.example.cusnav"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079062446582-94f6cp6ln629nt2sipodpc3atg16ht69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6aEgh3xWUpSTNx-4XxAfpy59zkbvqZLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079062446582-94f6cp6ln629nt2sipodpc3atg16ht69.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

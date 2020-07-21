@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/detail_back"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:id="@+id/c_img"
+            android:layout_marginLeft="7dp"
+            android:src="@drawable/ic_arrow_back"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/c_txt"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="11dp"
+            android:text="Back"
+            android:textColor="#000"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toRightOf="@+id/c_img"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/detail_img"
+                android:layout_width="match_parent"
+                android:layout_height="100pt"
+                app:srcCompat="@drawable/ic_baseline_perm_contact_calendar_24" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Available On"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/chkavaid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="id"
+                android:textColor="#E6E6E6"
+                android:textSize="25sp"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/chk_available"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="138dp"
+                    android:layout_marginTop="8dp"
+                    android:hint="Available Now"
+                    android:textSize="15sp" />
+
+                <ImageButton
+                    android:id="@+id/calendar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:gravity="center"
+                    app:srcCompat="@drawable/ic_date_range_black_24dp" />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_marginStart="10dp"
+                        android:drawableRight="@drawable/ic_play_arrow_blacl_24dp"
+                        android:text="Brand"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/detail_brand"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:text="TOYOTA"
+                        android:textSize="15sp" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_marginStart="10dp"
+                        android:drawableRight="@drawable/ic_play_arrow_blacl_24dp"
+                        android:text="Number"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/detail_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:text="U-15023"
+                        android:textSize="15sp" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_marginStart="10dp"
+                        android:drawableRight="@drawable/ic_play_arrow_blacl_24dp"
+                        android:text="Model"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/detail_model"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginStart="10dp"
+                        android:text="2020"
+                        android:textSize="15sp" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_marginStart="10dp"
+                        android:drawableRight="@drawable/ic_play_arrow_blacl_24dp"
+                        android:text="Owner"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/nos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:text="Keniel Otis"
+                        android:textSize="15sp" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_marginStart="10dp"
+                        android:drawableRight="@drawable/ic_play_arrow_blacl_24dp"
+                        android:text="Price Per Day"
+                        android:textSize="15sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/detail_price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:text="30000"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:text="MMK Per Day"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_marginStart="10dp"
+                        android:drawableRight="@drawable/ic_play_arrow_blacl_24dp"
+                        android:text="Color"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/detail_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:ems="10"
+                        android:text="Red"
+                        android:textSize="15sp" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_marginStart="10dp"
+                        android:drawableRight="@drawable/ic_play_arrow_blacl_24dp"
+                        android:text="Description"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/detail_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:ems="10"
+                        android:text="This is pretty strong ,Obviously in long Ride. Make Sure you got in this"
+                        android:textSize="15sp" />
+                </TableRow>
+
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/fourSeater"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="20dp"
+                android:ems="10"
+                android:text=""
+                android:textColor="#E6E6E6"
+                android:textSize="16sp" />
+
+
+            <Button
+                android:id="@+id/Continue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="70dp"
+                android:layout_marginBottom="100dp"
+                android:text="Continue"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:fab2="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        fab:layout_constraintRight_toRightOf="parent"
+        fab:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_gradient"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Welcome"
+                    android:textColor="#730806"
+                    android:textSize="25sp" />
+
+
+
+                   <TextView
+                       android:id="@+id/title_name"
+                       android:text="Keniel"
+                       android:layout_marginStart="20dp"
+                       android:layout_marginTop="5dp"
+                       android:layout_marginBottom="5dp"
+                       android:textColor="#730806"
+                       android:textSize="25sp"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="21dp"
+                android:layout_marginBottom="5dp"
+                android:text="Please provide all require informations"
+                android:textColor="#730806"
+                android:textSize="15sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="#fff"
+                fab2:cardBackgroundColor="#fff"
+                fab2:cardCornerRadius="5dp"
+                fab2:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFF"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Bike or Bicycle Informations"
+                        android:textColor="#730806"
+                        android:textSize="19sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="#a69f9f" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Brand"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/carBrand"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/bg"
+                        android:drawableStart="@drawable/ic_home"
+                        android:drawablePadding="5dp"
+                        android:ems="10"
+                        android:hint="Toyota"
+                        android:inputType="textPersonName"
+                        android:padding="10dp"
+                        android:text=""
+                        android:textColorHint="#5c5c5c"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Model"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/subbrand"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/bg"
+                        android:drawableStart="@drawable/ic_home"
+                        android:drawablePadding="5dp"
+                        android:ems="10"
+                        android:hint="MARK2"
+                        android:inputType="number"
+                        android:padding="10dp"
+                        android:text=""
+                        android:textColorHint="#5c5c5c"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Number"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/carNo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/bg"
+                        android:drawableStart="@drawable/ic_home"
+                        android:drawablePadding="5dp"
+                        android:ems="10"
+                        android:hint="Bike Number"
+                        android:inputType="number"
+                        android:padding="10dp"
+                        android:text=""
+                        android:textColorHint="#5c5c5c"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Color"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/model"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/bg"
+                        android:drawableStart="@drawable/ic_home"
+                        android:drawablePadding="5dp"
+                        android:ems="10"
+                        android:hint="Black"
+                        android:inputType="number"
+                        android:padding="10dp"
+                        android:text=""
+                        android:textColorHint="#5c5c5c"
+                        android:textSize="15sp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Price Per Hour"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/carPrice"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/bg"
+                        android:drawableStart="@drawable/ic_person_black_24dp"
+                        android:drawablePadding="5dp"
+                        android:ems="10"
+                        android:hint="20000MMK Per Day"
+                        android:inputType="number"
+                        android:padding="10dp"
+                        android:text=""
+                        android:textColorHint="#5c5c5c"
+                        android:textSize="15sp" />
+
+
+                    <ImageView
+                        android:id="@+id/uploadPhoto"
+                        android:layout_width="140pt"
+                        android:layout_height="130pt"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="7dp"
+                        android:background="@drawable/bg"
+                        android:backgroundTint="#fff"
+                        fab:srcCompat="@drawable/ic_filter_hdr_black_24dp" />
+
+                    <Button
+                        android:id="@+id/Upload_Car"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="30dp"
+                        android:background="#E6E6E6"
+                        android:padding="10dp"
+                        android:text="Upload your bike photo"
+                        android:textAllCaps="false"
+                        android:textColor="#FFA500"
+                        android:textSize="17sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="30dp"
+                card_view:cardBackgroundColor="#b0b3b1"
+                card_view:cardCornerRadius="10dp"
+                card_view:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="21dp"
+                        android:text="Personal Informations"
+                        android:textColor="#730806"
+                        android:textSize="19sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="#847d7d" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Name"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/owner_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/bg"
+                        android:drawableStart="@drawable/ic_person_black_24dp"
+                        android:drawablePadding="5dp"
+                        android:ems="10"
+                        android:hint="Kniel Outis"
+                        android:inputType="textPersonName"
+                        android:padding="10dp"
+                        android:text=""
+                        android:textColorHint="#5c5c5c"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Bank Account"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/bankacc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/bg"
+                        android:drawableLeft="@drawable/ic_email_black_24dp"
+                        android:drawablePadding="5dp"
+                        android:ems="10"
+                        android:hint="10001010"
+                        android:inputType="textPersonName"
+                        android:padding="10dp"
+                        android:textColorHint="#5c5c5c"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Email"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/per_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/bg"
+                        android:drawableLeft="@drawable/ic_email_black_24dp"
+                        android:drawablePadding="5dp"
+                        android:ems="10"
+                        android:hint="example@gmail.com"
+                        android:inputType="textEmailAddress"
+                        android:padding="10dp"
+                        android:textColorHint="#5c5c5c"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Address"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/Per_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/bg"
+                        android:drawableLeft="@drawable/ic_person_black_24dp"
+                        android:drawablePadding="5dp"
+                        android:ems="10"
+                        android:hint="Yemin, Iraq"
+                        android:inputType="textPostalAddress"
+                        android:padding="10dp"
+                        android:textColorHint="#5c5c5c"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Phone"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/per_ph"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/bg"
+                        android:drawableLeft="@drawable/ic_baseline_perm_contact_calendar_24"
+                        android:drawablePadding="5dp"
+                        android:ems="10"
+                        android:hint="+9777 1111 6677"
+                        android:inputType="phone"
+                        android:padding="10dp"
+                        android:textColorHint="#5c5c5c"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/per_fee"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="20dp"
+                        android:padding="10dp"
+                        android:text=""
+                        android:textColor="#730806"
+                        android:textSize="15sp" />
+
+                    <Button
+                        android:id="@+id/per_agree"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="30dp"
+                        android:background="#E6E6E6"
+                        android:padding="10dp"
+                        android:text="Agree and Continue"
+                        android:textAllCaps="false"
+                        android:textColor="#FFA500"
+                        android:textSize="17sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        fab:layout_constraintBottom_toBottomOf="parent"
+        fab:layout_constraintRight_toRightOf="parent"
+        fab:menu_animationDelayPerItem="50"
+        fab:menu_backgroundColor="@android:color/transparent"
+        fab:menu_buttonSpacing="0dp"
+        fab:menu_colorNormal="#730806"
+        fab:menu_colorPressed="#577dfa"
+        fab:menu_colorRipple="#99FFFFFF"
+        fab:menu_fab_label="MENU"
+        fab:menu_fab_size="normal"
+        fab:menu_icon="@drawable/ic_dashboard_black_24dp"
+        fab:menu_labels_colorNormal="#333333"
+        fab:menu_labels_colorPressed="#444444"
+        fab:menu_labels_colorRipple="#66FFFFFF"
+        fab:menu_labels_cornerRadius="3dp"
+        fab:menu_labels_ellipsize="none"
+        fab:menu_labels_hideAnimation="@anim/fab_slide_out_to_right"
+        fab:menu_labels_margin="0dp"
+        fab:menu_labels_maxLines="-1"
+        fab:menu_labels_padding="8dp"
+        fab:menu_labels_paddingBottom="4dp"
+        fab:menu_labels_paddingLeft="8dp"
+        fab:menu_labels_paddingRight="8dp"
+        fab:menu_labels_paddingTop="4dp"
+        fab:menu_labels_position="left"
+        fab:menu_labels_showAnimation="@anim/fab_slide_in_from_right"
+        fab:menu_labels_showShadow="true"
+        fab:menu_labels_singleLine="false"
+        fab:menu_labels_textColor="#FFFFFF"
+        fab:menu_labels_textSize="14sp"
+        fab:menu_openDirection="up"
+        fab:menu_shadowColor="#66000000"
+        fab:menu_shadowRadius="4dp"
+        fab:menu_shadowXOffset="1dp"
+        fab:menu_shadowYOffset="3dp"
+        fab:menu_showShadow="true">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/menu_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_person_black_24dp"
+            fab:fab_colorNormal="#049efd"
+            fab:fab_label="SIGNIN"
+            fab:fab_size="mini"
+            fab:menu_colorPressed="#0df5b3"
+            fab:menu_colorRipple="#99FFFFFF" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/menu_item_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_home"
+            fab:fab_colorNormal="#049efd"
+            fab:fab_label="HOME"
+            fab:fab_size="mini"
+            fab:menu_colorPressed="#0df5b3"
+            fab:menu_colorRipple="#99FFFFFF" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/menu_item_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_activity"
+            fab:fab_colorNormal="#049efd"
+            fab:fab_label="LOGOUT"
+            fab:fab_size="mini"
+            fab:menu_colorPressed="#0df5b3"
+            fab:menu_colorRipple="#99FFFFFF" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+</androidx.constraintlayout.widget.ConstraintLayout>

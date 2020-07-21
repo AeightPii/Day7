@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ScrollView
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:fab="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:background="#fff">
+
+            <LinearLayout android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:textColor="#730806"
+                    android:text="User Registration"
+                    android:textSize="25sp"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"/>
+                <LinearLayout android:layout_width="70dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="30dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/ic_car"
+                        android:id="@+id/imageView2"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+
+                android:textColor="#730806"
+                android:text="Please provide all required informations"
+                android:textSize="15sp"
+                android:layout_marginStart="21dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+            <TextView
+                android:text="id"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idcar"/>
+
+            <androidx.cardview.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="#E6E6E6"
+                card_view:cardCornerRadius="10dp"
+                card_view:cardElevation="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp">
+                <LinearLayout android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:background="#fff"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_marginTop="21dp"
+                        android:textColor="#730806"
+                        android:text="Your Informations"
+                        android:textSize="20sp"
+                        android:layout_marginStart="32dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <View android:layout_width="match_parent"
+                        android:layout_marginTop="4dp"
+                        android:layout_height="1dp"
+                        android:background="#847d7d"
+                        android:layout_marginBottom="2dp"/>
+
+                    <TextView
+                        android:layout_marginTop="15dp"
+                        android:textColor="#1e1d1d"
+                        android:text="Full Name"
+                        android:layout_marginStart="32dp"
+                        android:textSize="19sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <EditText
+                        android:id="@+id/user_name"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/bg"
+                        android:padding="10dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:text=""
+                        android:drawableStart="@drawable/ic_person_black_24dp_dark"
+                        android:hint="Michael Scofield"
+                        android:ems="10"
+                        />
+<!--                    <TextView-->
+<!--                        android:layout_marginTop="15dp"-->
+<!--                        android:textColor="#1e1d1d"-->
+<!--                        android:text="NRC Number"-->
+<!--                        android:layout_marginStart="32dp"-->
+<!--                        android:textSize="19sp"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"/>-->
+<!--                    <EditText-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:padding="10dp"-->
+<!--                        android:background="@drawable/bg"-->
+<!--                        android:layout_marginStart="20dp"-->
+<!--                        android:layout_marginEnd="20dp"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:inputType="textPersonName"-->
+<!--                        android:text=""-->
+<!--                        android:drawableStart="@drawable/ic_credit_card_black_24dp"-->
+<!--                        android:hint="7/PMA(N)233954"-->
+<!--                        android:ems="10"-->
+<!--                        android:id="@+id/nrc_no"/>-->
+                    <TextView
+                        android:layout_marginTop="15dp"
+                        android:textColor="#1e1d1d"
+                        android:text="Phone Number"
+                        android:layout_marginStart="32dp"
+                        android:textSize="19sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <EditText
+                        android:id="@+id/user_ph"
+                        android:layout_marginTop="5dp"
+                        android:padding="10dp"
+                        android:background="@drawable/bg"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="+959 698541089"
+                        android:drawableLeft="@drawable/ic_phone_black_24dp"
+                        android:inputType="phone"
+                        android:ems="10"
+                        />
+                    <TextView
+                        android:layout_marginTop="15dp"
+                        android:textColor="#1e1d1d"
+                        android:text="Email Addess"
+                        android:layout_marginStart="32dp"
+                        android:textSize="19sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <EditText
+                        android:id="@+id/user_email"
+                        android:background="@drawable/bg"
+                        android:layout_marginTop="5dp"
+                        android:padding="10dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress"
+                        android:hint="example@gmail.com"
+                        android:drawableLeft="@drawable/ic_email_black_24dp"
+                        android:ems="10"
+                        />
+                    <TextView
+                        android:layout_marginTop="15dp"
+                        android:textColor="#1e1d1d"
+                        android:text="Address"
+                        android:layout_marginStart="32dp"
+                        android:textSize="20sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <EditText
+                        android:id="@+id/user_address"
+                        android:layout_marginTop="5dp"
+                        android:padding="10dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPostalAddress"
+                        android:background="@drawable/bg"
+                        android:hint="Chamber St,New York"
+                        android:drawableLeft="@drawable/ic_person_pin_circle_black_24dp"
+                        android:ems="10"
+
+                        android:layout_marginBottom="30dp"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="#E6E6E6"
+                card_view:cardCornerRadius="10dp"
+                card_view:cardElevation="10dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp">
+
+                <LinearLayout android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content"
+                    android:background="#fff">
+                    <TextView
+                        android:layout_marginTop="19dp"
+                        android:textColor="#730806"
+                        android:text="Plan for your bike or Bicycle"
+                        android:layout_marginStart="32dp"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <View android:layout_width="match_parent"
+                        android:layout_marginTop="4dp"
+                        android:layout_height="1dp"
+                        android:background="#847d7d"
+                        android:layout_marginBottom="2dp"/>
+
+
+                    <TableLayout android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <TableRow>
+                            <TextView android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Start Date"
+                                android:textColor="#000"
+                                android:drawableRight="@drawable/ic_play_arrow_white_24dp"
+                                android:layout_marginStart="15dp"
+                                android:textSize="18sp"/>
+                            <TextView
+                                android:id="@+id/start_date"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Select Start Date"
+                                android:layout_marginStart="8dp"
+                                android:textSize="17sp"
+                                />
+                            <Button android:layout_width="80dp"
+                                android:layout_height="30dp"
+                                android:layout_marginStart="5dp"
+                                android:textAllCaps="false"
+                                android:background="@drawable/btnstyle"
+                                android:text="Summit"
+                                android:layout_weight="1"
+                                android:textColor="#fff"
+                                android:id="@+id/s_submit"/>
+
+                        </TableRow>
+                        <TableRow android:layout_marginTop="15dp">
+
+                            <TextView android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="End Date"
+                                android:drawableRight="@drawable/ic_play_arrow_white_24dp"
+                                android:textColor="#000"
+                                android:layout_marginStart="15dp"
+                                android:textSize="18sp"/>
+                            <TextView
+                                android:id="@+id/end_date"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Select End Date"
+                                android:layout_marginStart="8dp"
+                                android:textSize="17sp"
+                                />
+                            <Button android:layout_width="20dp"
+                                android:layout_height="30dp"
+                                android:textAllCaps="false"
+                                android:text="Summit"
+                                android:background="@drawable/btnstyle"
+                                android:textColor="#fff"
+                                android:layout_marginStart="5dp"
+                                android:layout_weight="1"
+                                android:id="@+id/e_submit"/>
+                        </TableRow>
+                    </TableLayout>
+
+                    <TableLayout android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <TableRow android:layout_marginTop="15dp">
+
+                            <TextView android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Price"
+                                android:drawableRight="@drawable/ic_play_arrow_white_24dp"
+                                android:textColor="#000"
+                                android:layout_marginStart="15dp"
+                                android:textSize="17sp"/>
+                            <TextView
+                                android:id="@+id/user_price"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1000"
+                                android:textColor="#000"
+                                android:textAlignment="textEnd"
+                                android:layout_marginStart="8dp"
+                                android:textSize="17sp"
+                                />
+                            <TextView android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="KYATS"
+                                android:textColor="#000"
+                                android:layout_marginStart="8dp"
+                                android:textSize="17sp"/>
+                        </TableRow>
+                        <TableRow android:layout_marginTop="15dp">
+
+                            <TextView android:layout_width="match_parent"
+                                android:layout_marginTop="10dp"
+                                android:layout_height="wrap_content"
+                                android:text="Total Days"
+                                android:drawableRight="@drawable/ic_play_arrow_white_24dp"
+                                android:textSize="17sp"
+                                android:layout_marginStart="15dp"
+                                android:textColor="#000"/>
+                            <TextView
+                                android:id="@+id/total_day"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:hint="0"
+                                android:textColor="#000"
+
+                                android:textAlignment="textEnd"
+                                android:layout_marginStart="8dp"
+                                android:textSize="17sp"/>
+                            <TextView android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginEnd="20dp"
+                                android:text="DAYS"
+                                android:textColor="#000"
+                                android:layout_marginStart="8dp"
+                                android:textSize="17sp"/>
+                        </TableRow>
+                    </TableLayout>
+
+                    <TextView
+                        android:id="@+id/totalPrice"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="15dp"
+                        android:layout_height="wrap_content"
+                        android:hint="0"
+                        android:textSize="19sp"
+                        android:gravity="center"
+                        android:textColor="#730806"/>
+                    <TextView
+                        android:id="@+id/idUser"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="Thanks"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:layout_marginBottom="30dp"/>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <ProgressBar android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:id="@+id/pbuser"/>
+            <Button
+                android:id="@+id/user_confirm_btn"
+                android:text="Confirm"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:textColor="#FFA500"
+                android:layout_height="0dp"
+                android:layout_marginTop="18dp"
+                android:padding="10dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:background="#E6E6E6"
+                android:layout_weight="1"
+                android:layout_marginBottom="70dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/menu"
+        android:layout_gravity="end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="10dp"
+        fab:menu_fab_size="normal"
+        fab:menu_showShadow="true"
+        fab:menu_shadowColor="#66000000"
+        fab:menu_shadowRadius="4dp"
+        fab:menu_shadowXOffset="1dp"
+        fab:menu_shadowYOffset="3dp"
+        fab:menu_colorNormal="#730806"
+        fab:menu_colorPressed="#577dfa"
+        fab:menu_colorRipple="#99FFFFFF"
+        fab:menu_animationDelayPerItem="50"
+        fab:menu_icon="@drawable/ic_dashboard_white_24dp"
+        fab:menu_buttonSpacing="0dp"
+        fab:menu_labels_margin="0dp"
+        fab:menu_labels_showAnimation="@anim/fab_slide_in_from_right"
+        fab:menu_labels_hideAnimation="@anim/fab_slide_out_to_right"
+        fab:menu_labels_paddingTop="4dp"
+        fab:menu_labels_paddingRight="8dp"
+        fab:menu_labels_paddingBottom="4dp"
+        fab:menu_labels_paddingLeft="8dp"
+        fab:menu_labels_padding="8dp"
+        fab:menu_labels_textColor="#FFFFFF"
+        fab:menu_labels_textSize="14sp"
+        fab:menu_labels_cornerRadius="3dp"
+        fab:menu_labels_colorNormal="#333333"
+        fab:menu_labels_colorPressed="#444444"
+        fab:menu_labels_colorRipple="#66FFFFFF"
+        fab:menu_labels_showShadow="true"
+        fab:menu_labels_singleLine="false"
+        fab:menu_labels_ellipsize="none"
+        fab:menu_labels_maxLines="-1"
+        fab:menu_labels_position="left"
+        fab:menu_openDirection="up"
+        fab:menu_backgroundColor="@android:color/transparent"
+        fab:menu_fab_label="MENU">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/menu_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_person_white_24dp"
+            fab:fab_colorNormal="#049efd"
+            fab:menu_colorPressed="#0df5b3"
+            fab:menu_colorRipple="#99FFFFFF"
+            fab:fab_size="mini"
+            fab:fab_label="Be a member?SignUp!"/>
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/menu_item5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="#049efd"
+            fab:menu_colorPressed="#0df5b3"
+            fab:menu_colorRipple="#99FFFFFF"
+            android:src="@drawable/ic_home_white_24dp"
+            fab:fab_size="mini"
+            fab:fab_label="HOME"/>
+
+
+    </com.github.clans.fab.FloatingActionMenu>
+</RelativeLayout>
